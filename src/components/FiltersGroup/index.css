@@ -1,0 +1,87 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  background-color: #f1f5f9;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding-right: 10px;
+}
+.search-container > input {
+  padding-left: 10px;
+  border-style: none;
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 8px;
+  margin-top: 0;
+  background-color: transparent;
+}
+.filters-group-container > h1 > {
+  margin-bottom: 0;
+}
+.category-container,
+.ratings-container {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.category-container > li {
+  list-style-type: none;
+  margin-bottom: 1px;
+}
+.category-container > li > p {
+  background-color: transparent;
+  border-style: none;
+  color: #64748b;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+.ratings-container {
+  padding-left: 0;
+}
+.ratings-container > li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.ratings-container > li > button {
+  background-color: transparent;
+  border-style: none;
+  color: #64748b;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  background-color: transparent;
+  text-align: start;
+  width: 100%;
+}
+.ratings-container > li > button > img {
+  width: 50%;
+  margin-left: 0;
+  margin-right: 8px;
+}
+.clear-button {
+  color: #0967d2;
+  border-color: #0967d2;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  height: 25px;
+}
